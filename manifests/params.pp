@@ -1,4 +1,4 @@
-# == Class: vagrant:params
+# == Class: vagrant::params
 #
 # Define default parameters.
 #
