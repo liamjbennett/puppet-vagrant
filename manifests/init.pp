@@ -2,6 +2,11 @@
 #
 # Install Vagrant
 #
+# === Parameters:
+#
+# [*git_hash*] Git hash of the Vagrant release
+# [*version*] Version of Vagrant to install
+#
 # === Examples
 #
 #  class { vagrant:
