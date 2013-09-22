@@ -13,32 +13,31 @@ Supported Platforms:
 Usage
 -----
 
-Install:
+Install Vagrant 1.3.3:
 
 ```
 class {'vagrant': }
 ```
 
-Install a specific version:
+Install a specific version of Vagrant:
 
 ```
 class {'vagrant':
-  git_hash => 'b12c7e8814171c1295ef82416ffe51e8a168a244',
   version => '1.3.1',
 }
 ```
 
 Developer Notes
 ---------------
-This module does _NOT_ support versions of Vagrant older than 1.2.0 due to the  
-URL pattern change that was used prior to 1.2.0.
+This module does _NOT_ support versions of Vagrant older than 1.2.0 due to a  
+URL pattern change that occured.
 
-The module will automagically populate the ```git_hash``` for 1.2.0 to 1.3.1. 
-Newer verisons will _REQUIRE_ you add the ```git_hash``` to the parameters until 
-such time the module is updated.
+The module will automagically populate the ```git_hash``` for 1.2.0 to 1.3.3. 
+Newer verisons will _REQUIRE_ you to add the ```git_hash``` to the parameters 
+until such time the module is updated.
 
 If the ```version``` or ```git_hash``` are not provided the module will default 
-to Vagrant ```1.3.1``` and ```b12c7e8814171c1295ef82416ffe51e8a168a244``` 
+to Vagrant ```1.3.3``` and ```db8e7a9c79b23264da129f55cf8569167fc22415``` 
 respectively.
 
 MIT License
