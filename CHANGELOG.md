@@ -1,3 +1,7 @@
+2013-10-02 - Ryan Skoblenick <ryan@skoblenick.com> - 0.3.0
+  * Updated default version of Vagrant to 1.3.4
+  * Added git hash for Vagrant 1.3.4
+
 2013-09-22 - Ryan Skoblenick <ryan@skoblenick.com> - 0.2.0
   * Added version number to namevar of package type
   * Updated default version of Vagrant to 1.3.3

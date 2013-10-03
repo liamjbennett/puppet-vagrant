@@ -12,7 +12,7 @@
 #
 class vagrant::params {
 
-  $git_hash = 'db8e7a9c79b23264da129f55cf8569167fc22415'
-  $version = '1.3.3'
+  $git_hash = '0ac2a87388419b989c3c0d0318cc97df3b0ed27d'
+  $version = '1.3.4'
 
 }

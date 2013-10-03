@@ -13,7 +13,7 @@ Supported Platforms:
 Usage
 -----
 
-Install Vagrant 1.3.3:
+Install Vagrant 1.3.4:
 
 ```
 class {'vagrant': }
@@ -32,7 +32,7 @@ Developer Notes
 This module does _NOT_ support versions of Vagrant older than 1.2.0 due to a  
 URL pattern change that occured.
 
-The module will automagically populate the ```git_hash``` for 1.2.0 to 1.3.3. 
+The module will automagically populate the ```git_hash``` for 1.2.0 to 1.3.4. 
 Newer verisons will _REQUIRE_ you to add the ```git_hash``` to the parameters 
 until such time the module is updated.
 

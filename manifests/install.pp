@@ -25,6 +25,7 @@ class vagrant::install {
     '1.3.1' => 'b12c7e8814171c1295ef82416ffe51e8a168a244',
     '1.3.2' => '9a394588a6dcf97e8f916da9564088fcf242c4b3',
     '1.3.3' => 'db8e7a9c79b23264da129f55cf8569167fc22415',
+    '1.3.4' => '0ac2a87388419b989c3c0d0318cc97df3b0ed27d',
     default => $vagrant::git_hash
   }
   $base_url = "http://files.vagrantup.com/packages/${git_hash}"
