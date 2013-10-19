@@ -13,7 +13,7 @@ Supported Platforms:
 Usage
 -----
 
-Install Vagrant 1.3.4:
+Install Vagrant 1.3.5:
 
 ```
 class {'vagrant': }

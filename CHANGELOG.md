@@ -1,3 +1,7 @@
+2013-10-19 - Ryan Skoblenick <ryan@skoblenick.com> - 0.4.0
+  * Updated default version of Vagrant to 1.3.5
+  * Added git hash for Vagrant 1.3.5
+
 2013-10-02 - Ryan Skoblenick <ryan@skoblenick.com> - 0.3.0
   * Updated default version of Vagrant to 1.3.4
   * Added git hash for Vagrant 1.3.4
