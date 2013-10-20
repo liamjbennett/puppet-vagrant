@@ -29,16 +29,12 @@ class {'vagrant':
 
 Developer Notes
 ---------------
-This module does _NOT_ support versions of Vagrant older than 1.2.0 due to a  
+This module does __NOT__ support versions of Vagrant older than 1.2.0 due to a  
 URL pattern change that occured.
 
-The module will automagically populate the ```git_hash``` for 1.2.0 to 1.3.4. 
-Newer verisons will _REQUIRE_ you to add the ```git_hash``` to the parameters 
+The module will automagically populate the ```git_hash``` for 1.2.0 to 1.3.5. 
+Newer verisons will __REQUIRE__ you to add the ```git_hash``` to the parameters 
 until such time the module is updated.
-
-If the ```version``` or ```git_hash``` are not provided the module will default 
-to Vagrant ```1.3.3``` and ```db8e7a9c79b23264da129f55cf8569167fc22415``` 
-respectively.
 
 MIT License
 -----------
