@@ -1,3 +1,8 @@
+2014-03-03 - Ryan Skoblenick <ryan@skoblenick.com> - 0.5.0
+  * Removed historical support for versions of Vagrant older than 1.4.0
+  * At present this module will only support Vagrant 1.4.0+
+  * Fixed installations for Linux distros [GH-1]. Module is now using osfamily
+
 2013-10-19 - Ryan Skoblenick <ryan@skoblenick.com> - 0.4.0
   * Updated default version of Vagrant to 1.3.5
   * Added git hash for Vagrant 1.3.5

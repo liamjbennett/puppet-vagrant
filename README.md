@@ -1,7 +1,7 @@
 Puppet Module - Vagrant
 =======================
 
-Puppet module to install Vagrant.
+Puppet module to install Vagrant 1.4.0+.
 
 Supported Platforms:
 
@@ -13,7 +13,7 @@ Supported Platforms:
 Usage
 -----
 
-Install Vagrant 1.3.5:
+Install Vagrant 1.4.3:
 
 ```
 class {'vagrant': }
@@ -23,18 +23,16 @@ Install a specific version of Vagrant:
 
 ```
 class {'vagrant':
-  version => '1.3.1',
+  version => '1.4.0',
 }
 ```
 
 Developer Notes
 ---------------
-This module does __NOT__ support versions of Vagrant older than 1.2.0 due to a  
-URL pattern change that occured.
+This module does __NOT__ support versions of Vagrant older than 1.4.0. Versions 
+of this module prior to 0.5.0 supported Vagrant 1.2.0-1.3.5. Rather than  
+maintaining historical versions I've decided to drop support.
 
-The module will automagically populate the ```git_hash``` for 1.2.0 to 1.3.5. 
-Newer verisons will __REQUIRE__ you to add the ```git_hash``` to the parameters 
-until such time the module is updated.
 
 MIT License
 -----------

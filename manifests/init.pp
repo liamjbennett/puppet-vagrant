@@ -4,14 +4,12 @@
 #
 # === Parameters:
 #
-# [*git_hash*] Git hash of the Vagrant release
 # [*version*] Version of Vagrant to install
 #
 # === Examples
 #
 #  class { vagrant:
-#    git_hash => 'b12c7e8814171c1295ef82416ffe51e8a168a244',
-#    version => '1.3.1',
+#    version => '1.4.3',
 #  }
 #
 # === Authors
@@ -23,7 +21,6 @@
 # Copyright 2013 Ryan Skoblenick.
 #
 class vagrant (
-  $git_hash = $vagrant::params::git_hash,
   $version = $vagrant::params::version
 ) inherits vagrant::params {
 

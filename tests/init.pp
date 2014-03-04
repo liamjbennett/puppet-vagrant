@@ -1,1 +1,3 @@
-include vagrant
+class {'vagrant':
+  version => '1.4.3',
+}
