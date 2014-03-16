@@ -13,7 +13,7 @@ Supported Platforms:
 Usage
 -----
 
-Install Vagrant 1.4.3:
+Install Vagrant 1.5.1:
 
 ```
 class {'vagrant': }
@@ -29,7 +29,7 @@ class {'vagrant':
 
 Developer Notes
 ---------------
-This module does __NOT__ support versions of Vagrant older than 1.4.0. Versions 
+This module does __NOT__ support versions of Vagrant older than 1.4.0. Versions
 of this module prior to 0.5.0 supported Vagrant 1.2.0-1.3.5. Rather than  
 maintaining historical versions I've decided to drop support.
 

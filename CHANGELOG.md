@@ -1,3 +1,6 @@
+2014-03-14 - Ryan Skoblenick <ryan@skoblenick.com> - 0.5.1
+  * Updated default version of Vagrant to 1.5.1
+
 2014-03-03 - Ryan Skoblenick <ryan@skoblenick.com> - 0.5.0
   * Removed historical support for versions of Vagrant older than 1.4.0
   * At present this module will only support Vagrant 1.4.0+
