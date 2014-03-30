@@ -29,7 +29,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision "puppet" do |puppet|
     puppet.manifests_path = "tests"
     puppet.manifest_file = "init.pp"
-    puppet.options = "--modulepath '/vagrant:/etc/puppet/modules' --verbose --debug"
+    puppet.options = "--verbose --debug"
   end
 
 end
