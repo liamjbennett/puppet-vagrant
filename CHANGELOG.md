@@ -1,3 +1,9 @@
+2014-03-29 - Ryan Skoblenick <ryan@skoblenick.com> - 0.6.0
+  * Added a bunch of conditional logic to construct the URL for download. This
+    has become necessary because the URL pattern on Vagrant's site has changed
+    again. Why can no one stick to simple URL consistent and common URL
+    practices...
+
 2014-03-14 - Ryan Skoblenick <ryan@skoblenick.com> - 0.5.1
   * Updated default version of Vagrant to 1.5.1
 
