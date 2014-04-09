@@ -1,5 +1,5 @@
 name 'skoblenick-vagrant'
-version '0.6.0'
+version '0.7.0'
 
 author 'skoblenick'
 license 'MIT License'

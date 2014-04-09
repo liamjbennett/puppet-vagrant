@@ -1,3 +1,6 @@
+2014-04-09 - Ryan Skoblenick <ryan@skoblenick.com> - 0.7.0
+  * Updated default versin of Vagrant to 1.5.2
+
 2014-03-29 - Ryan Skoblenick <ryan@skoblenick.com> - 0.6.0
   * Added a bunch of conditional logic to construct the URL for download. This
     has become necessary because the URL pattern on Vagrant's site has changed

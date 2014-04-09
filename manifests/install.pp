@@ -29,6 +29,7 @@ class vagrant::install {
         '1.4.3' => '78d20fbe44704d91b7958af57308eb0fde147ed4',
         '1.5.0' => '60562e033fd041887df32042ea1a988fedee0111',
         '1.5.1' => 'a96f55d746e433e681f07b2668ee19f2674acf6b',
+        '1.5.2' => '02b7cd7d01d9134dadebb3ce50ce3906ee572f4b',
       }
       $filename = $version ? {
         /1\.4\.\d/ => "Vagrant-${version}.dmg",
@@ -45,6 +46,7 @@ class vagrant::install {
           '1.4.3' => 'd8077ea1fb8cf89cb31480325d0d23cd807a231c',
           '1.5.0' => 'fcf2c0f72b785eee86913d48d87008f5e2bb79c8',
           '1.5.1' => '5013d1b0c1faa6b6e93b9d92f1dd4f2c2aa13720',
+          '1.5.2' => '64cb92ee2070fecfd4d6ca7c77d21bc3dcf92278',
         },
         'x86_64' => $version ? {
           '1.4.0' => '1c9deb8a6955158a2385f2b1dca35b0f8285539b',
@@ -53,6 +55,7 @@ class vagrant::install {
           '1.4.3' => '2f0b88eb857b0a4d0b71250f999f8873f0c3bc7b',
           '1.5.0' => 'a0e5e8d2aa3bd0a8e00d02c87b26698900fea2cf',
           '1.5.1' => 'b291152131b81177f4e27174e901ec2a244540ff',
+          '1.5.2' => '6639b7d98647b2228da763b289a2ff73f9bac3ca',
         },
       }
 
@@ -68,6 +71,7 @@ class vagrant::install {
           '1.4.3' => 'c9be5a1c280c9b44b8df5b50c20cf98bb83f8cfa',
           '1.5.0' => '314876b2a49be456adb128bf6eb9f4968f84c20c',
           '1.5.1' => '6fcb7371dc6b5ef9bb1437f6a303d55edc7c6a71',
+          '1.5.2' => '4aa5fb44a102467c365688d5dcd9df0fb5984549',
         },
         'x86_64' => $version ? {
           '1.4.0' => '203b70de171ab6cf7d34c6dcfd1e6f3a6564503a',
@@ -76,6 +80,7 @@ class vagrant::install {
           '1.4.3' => '96ce8e4c0efb26bf5e1e70afd0483e15b57e7202',
           '1.5.0' => '8862b7a6977948153b1e9aa61536a1e42fb4648e',
           '1.5.1' => 'c36e109afdad04636dfbf52eeeece8ac710298b4',
+          '1.5.2' => '5e7293f0910fa5755d6583108d105612be146e96',
         },
       }
 
@@ -90,6 +95,7 @@ class vagrant::install {
         '1.4.3' => '1835e881651ac8f27a9e4b815754f1934db71fe6',
         '1.5.0' => '48573e7f0a69173626854c7e7eb50985bc96713f',
         '1.5.1' => '237cd7320abe65f90e3442459e778e595e066cfe',
+        '1.5.2' => '75003a11b33053e98634648dfbbfbf7ee52b49cf',
       }
       $filename = $version ? {
         /1\.4\.\d/ => "Vagrant-${version}.msi",
