@@ -30,11 +30,11 @@ class vagrant::install {
     }
     'Debian': {
       $filename = "vagrant_${version}_${arch}.deb"
-      $provider = 'apt'
+      $provider = 'dpkg'
     }
     'RedHat': {
       $filename = "vagrant_${version}_${arch}.rpm"
-      $provider = 'yum'
+      $provider = 'rpm'
     }
     'Windows': {
       $filename = $version ? {
