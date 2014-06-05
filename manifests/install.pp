@@ -30,18 +30,18 @@ class vagrant::install {
     }
     'Debian': {
       $filename = "vagrant_${version}_${arch}.deb"
-      $provider = 'deb'
+      $provider = 'apt'
     }
     'RedHat': {
       $filename = "vagrant_${version}_${arch}.rpm"
-      $provider = 'rpm'
+      $provider = 'yum'
     }
     'Windows': {
       $filename = $version ? {
         /1\.4\.\d/ => "Vagrant-${version}.msi",
         default    => "vagrant-${version}.msi"
       }
-      $provider = 'msi'
+      $provider = 'windows'
     }
   }
 
